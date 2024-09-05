@@ -1,0 +1,47 @@
+#root{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.body {
+    background: black;
+    padding: 0 15px;
+    color: white; /* Change my color to yellow */
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+  }
+  .board {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 4px;
+    background-color: white;
+  }
+  .cell {
+    background-color: black;
+  }
+  .middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90vh;
+    text-align: center;
+  }
+  .middle p{
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .footer{
+    background-color: black;
+    color: white;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 20px;
+  }
